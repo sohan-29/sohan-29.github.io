@@ -33,7 +33,7 @@ The production-ready files will be generated in the `dist` folder.
 
 You can deploy the contents of the `dist` folder to GitHub Pages or any static hosting service.
 
-Visit the deployed website at: [https://sohan-29.github.io/my-portfolio](https://sohan-29.github.io/my-portfolio)
+Visit the deployed website at: [https://dsox29.netlify.app/]
 
 ## Plugins Used
 

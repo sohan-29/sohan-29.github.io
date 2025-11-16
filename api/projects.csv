@@ -1,5 +1,5 @@
 id,name,description,img,link
-1,Personal Portfolio Website,"A personal portfolio website built using React.js to showcase my projects, skills, and experience. It features a clean and modern design with responsive layouts for optimal viewing on all devices.","./my-portfolio.png","https://sohan-29.github.io/"
+1,Personal Portfolio Website,"A personal portfolio website built using React.js to showcase my projects, skills, and experience. It features a clean and modern design with responsive layouts for optimal viewing on all devices.","./my-portfolio.png","https://dsox29.netlify.app/"
 2,Smart Resume Builder,"A smart resume builder application that helps users create professional resumes quickly and easily. It offers various templates and customization options to suit different job applications.","./resumeBuilder.png","https://smartresumebuilder-ai.netlify.app"
 3,Project NCC,"A web application developed for managing and organizing National Cadet Corps (NCC) activities. It includes features for event scheduling, member management, and communication tools.","./projectNCC.png",""
 4,Project GPT,"An web application that represnets our college Government Polythechnic, Srikakulam. It provides information about courses, faculty, events, and other resources for students and staff.","./projectGPT.png","https://gpt-sklm-production.up.railway.app/"
