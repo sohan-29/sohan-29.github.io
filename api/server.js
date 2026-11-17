@@ -149,6 +149,31 @@ app.get('/api/contacts', async (req, res) => {
   }
 });
 
+app.post('/api/contact', async (req, res) => {
+  try {
+    const { name, email, message } = req.body;
+
+    const newContact = new Contact({
+      name,
+      email,
+      message
+    });
+
+    await newContact.save();
+
+    res.status(201).json({
+      success: true,
+      message: 'Message saved successfully'
+    });
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({
+      success: false,
+      message: 'Failed to save message'
+    });
+  }
+});
+
 app.listen(port, () => {
   console.log(`API server listening at http://localhost:${port}`);
 });
